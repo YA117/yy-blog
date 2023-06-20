@@ -9,20 +9,18 @@ import { Footer } from "./footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Guillermo Rauch's blog",
-  description:
-    "Guillermo Rauch is the CEO and founder of Vercel, a software engineer, and the creator of Next.js, Mongoose, Socket.io and other open source libraries.",
+  title: "Yusuf's blog",
+  description: "Yusuf Blog",
   openGraph: {
-    title: "Guillermo Rauchg's blog",
-    description:
-      "Guillermo Rauch is the CEO and founder of Vercel, a software engineer, and the creator of Next.js, Mongoose, Socket.io and other open source libraries.",
+    title: "Yusuf's blog",
+    description: "Yusuf Blog",
     url: "https://rauchg.com",
-    siteName: "Guillermo Rauchg's blog",
+    siteName: "Yusuf's blog",
   },
   twitter: {
     card: "summary_large_image",
-    site: "@rauchg",
-    creator: "@rauchg",
+    site: "@yourtwitter",
+    creator: "@yourtwitter",
   },
   themeColor: "transparent",
   metadataBase: new URL("https://rauchg.com"),

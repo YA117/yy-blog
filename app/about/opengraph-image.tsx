@@ -6,11 +6,6 @@ import { getPosts } from "@/app/get-posts";
 import commaNumber from "comma-number";
 
 export default async function AboutOG() {
-  // rauchg photo
-  const rauchgPhoto = fetch(
-    new URL(`../../public/images/rauchg-3d4cecf.gray.jpg`, import.meta.url)
-  ).then(res => res.arrayBuffer());
-
   // fonts
   const inter300 = fetch(
     new URL(
@@ -44,16 +39,6 @@ export default async function AboutOG() {
       >
         <main tw="flex grow pt-4 w-full justify-center items-center">
           <div tw="flex flex-row">
-            <div tw="flex">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                tw="rounded-full h-74"
-                alt="Guillermo Rauch"
-                // @ts-ignore
-                src={await rauchgPhoto}
-              />
-            </div>
-
             <div tw="flex flex-col px-10 grow text-[28px] h-70 justify-center">
               <div tw="text-[64px] mb-7" style={font("Inter 500")}>
                 Guillermo Rauch
