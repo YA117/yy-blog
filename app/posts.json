@@ -2,8 +2,13 @@
   "posts": [
     {
       "id": "freshed-blog",
-      "date": "June 23, 2023",
+      "date": "June 20, 2023",
       "title": "Freshed blog from scratch"
+    },
+    {
+      "id": "hello-from-me",
+      "date": "June 21, 2023",
+      "title": "Hello From Me"
     }
   ]
 }
