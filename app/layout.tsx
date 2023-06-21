@@ -9,21 +9,21 @@ import { Footer } from "./footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Yusuf's blog",
-  description: "Yusuf Blog",
+  title: "Yusuf A Yusuf",
+  description: "Yusuf A Yusuf",
   openGraph: {
-    title: "Yusuf's blog",
-    description: "Yusuf Blog",
-    url: "https://rauchg.com",
-    siteName: "Yusuf's blog",
+    title: "Yusuf A  Yusuf",
+    description: "Yusuf A Yusuf",
+    url: "https://yyusuf.com",
+    siteName: "Yusuf A Yusuf",
   },
   twitter: {
     card: "summary_large_image",
-    site: "@yourtwitter",
-    creator: "@yourtwitter",
+    site: "@wrongyusuf",
+    creator: "@wrongyusuf",
   },
   themeColor: "transparent",
-  metadataBase: new URL("https://rauchg.com"),
+  metadataBase: new URL("https://yyusuf.com"),
 };
 
 export default function RootLayout({
