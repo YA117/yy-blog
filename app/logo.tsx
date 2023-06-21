@@ -7,7 +7,7 @@ export function Logo() {
   return (
     <span className="text-md md:text-lg whitespace-nowrap font-bold">
       {pathname === "/" ? (
-        <span className="cursor-default pr-2">Yusuf A Yusuf/span>
+        <span className="cursor-default pr-2">Yusuf A Yusuf</span>
       ) : (
         <Link
           href="/"

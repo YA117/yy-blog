@@ -34,15 +34,12 @@ export function Header({ posts }: { posts: Post[] }) {
       </h1>
 
       <p className="font-mono flex text-xs text-gray-500 dark:text-gray-500">
-       
-
-          {/* since we will pre-render the relative time, over time it
-           * will diverge with what the user relative time is, so we suppress the warning.
-           * In practice this is not an issue because we revalidate the entire page over time
-           * and because we will move this to a server component with template.tsx at some point */}
-          <span suppressHydrationWarning={true}>
-            {post.date} ({ago(post.date, true)} ago)
-          </span>
+        {/* since we will pre-render the relative time, over time it
+         * will diverge with what the user relative time is, so we suppress the warning.
+         * In practice this is not an issue because we revalidate the entire page over time
+         * and because we will move this to a server component with template.tsx at some point */}
+        <span suppressHydrationWarning={true}>
+          {post.date} ({ago(post.date, true)} ago)
         </span>
 
         <span className="pr-1.5">
