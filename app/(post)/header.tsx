@@ -36,15 +36,6 @@ export function Header({ posts }: { posts: Post[] }) {
       <p className="font-mono flex text-xs text-gray-500 dark:text-gray-500">
         <span className="flex-grow">
           <span className="hidden md:inline">
-            <span>
-              <a
-                href="https://twitter.com/wrongyusuf"
-                className="hover:text-gray-800 dark:hover:text-gray-400"
-                target="_blank"
-              >
-                @wrongyusuf
-              </a>
-            </span>
 
             <span className="mx-2">|</span>
           </span>
